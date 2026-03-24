@@ -3,7 +3,8 @@ import React from 'react'
 const projetos = [
   {id: 1, name: 'mcDonalds', Image: '/mcDonalds.png', url: 'https://clone-mc-donalds-apvudl6lt-gabriel14em-9376s-projects.vercel.app/'},
   {id: 2, name: 'FrontEndMentor', Image: '/frontendmentor.png', url: 'https://gabrieldeespindolamartins.github.io/Front-End-Mentor-Projects/' },
-  {id: 3, name: 'Task Manager', Image: 'taskManager.png', url: 'https://task-manager-8qkujcb7l-gabriel14em-9376s-projects.vercel.app/' }
+  {id: 3, name: 'Task Manager', Image: 'taskManager.png', url: 'https://task-manager-8qkujcb7l-gabriel14em-9376s-projects.vercel.app/' },
+  {id: 4, name: 'FMP', Image: 'fmp.png', url: 'https://gabrielmartinsfmp.github.io/Atividades-1fase/' }
 ]
 
 export const Projects = () => {
@@ -14,6 +15,7 @@ export const Projects = () => {
         
             {projetos.map(element => ( 
             <a 
+            target='_blank'
             href={element.url}
             onClick={() => console.log('clicou')}
             key={element.id}

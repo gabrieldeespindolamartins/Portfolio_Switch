@@ -4,7 +4,8 @@ const skills = [
   {id: 1, Image: '/React.png'},
   {id: 2, Image: '/html.png'},
   {id: 3, Image: 'css.png'},
-  {id: 4, Image: 'js.png'}
+  {id: 4, Image: 'js.png'},
+  {id: 5, Image: 'github.png'}
 ]
 export const Skills = () => {
   return (
